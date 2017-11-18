@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <declare-styleable name="edu.cse523.psakhare.TTTButton">
+        <attr name="index" format="integer"></attr>
+    </declare-styleable>
+</resources>

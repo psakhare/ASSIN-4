@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="edu.cse523.psakhare.tttgameusingmessagingprotocol.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:text="TTT Game! Please Press Continue to Play Game!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/continueBtn"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Continue"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Received Message"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/receivedMsg"/>
+
+</LinearLayout>
